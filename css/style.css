@@ -101,3 +101,7 @@ footer {
 .adres h6 {
     text-decoration: underline;
 }
+
+.adres a:hover {
+    color:cornflowerblue;
+}
