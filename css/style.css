@@ -1,0 +1,99 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: cursive;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-left .brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar-right a:hover{
+    text-decoration: underline;
+}
+
+.brand .col-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .title .icon {
+    background-color:transparent; 
+    border:none
+}
+
+.navbar .title .brand { 
+    color: #000;
+    text-decoration: none;
+}
+
+.main-page{
+    height: 73vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.card {
+    margin: 3rem;
+    border-radius: 1rem;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body .btn {
+    color: #fff;
+}
+
+.container:not(footer) {
+    border-radius: 1rem;
+}
+
+.adres {
+    text-align: left;
+}
+
+footer {
+    opacity: 0.7;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid ;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social * {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    color: #000;
+}
